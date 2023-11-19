@@ -1,0 +1,25 @@
+`Questions:
+1- Promise
+2- zero, empty string (""), False, undefined, null
+3- primitives: number, string, boolean, undefined, null, bigInt, symbol
+nonprimitives: object, array
+4- Hoisting is the process where the interpreter move the declaration of functions, variables, classes, or imports to the top of their scope
+5- var used to declare variables but didn't prevent declaring another variable with the same name - hoisted
+let used to declare variables too but prevent declaring another variable with the same name - not hoisted
+const is the same as let but the value stored in it is a constant (you can't reassign it) - not hoisted
+6- function declaration - hoisted
+function expression - not hoisted
+arrow function - not hoisted
+immediately invoked function expression (IIFE) - not hoisted
+constractor function - hoisted
+7- JS is sync, JS use callback queue to store callbacks untile the event loop decide when each callback will be executed and put it in call stack
+8- deciding when each callback will be executed
+9- (==) will check value equality between 2 varialbes but (===) will check data type equality too
+10- NAN is not a number, of type number
+11- scope is the current context of code which determines the accessibility of variables on the code, When looking for variables through the nested scope JavaScript search in the inner scope first and If the variable is not assigned locally then it will look at the outer scope untile the global scope if still not found it will throw a reference error
+12- it allows inner functions to access the outer scope of a function and outer variables even if the outer function is terminated
+13-
+a) "Omar"
+b) "21" - "111" - "111" - 0 - NAN - "1ss" - 10
+c) undefined - ERROR - 20 - 10
+d) ERROR - ERROR`
